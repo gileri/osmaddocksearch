@@ -5,8 +5,15 @@
 // @version      0.1
 // @description  Add BAN (adresse.data.gouv.fr) results above Openstreetmap search results on openstreetmap.org
 // @author       gileri
-// @match        *://www.openstreetmap.org/search*
 // @match        *://www.openstreetmap.org/
+// @match        *://www.openstreetmap.org/search*
+// @match        *://www.openstreetmap.org/node*
+// @match        *://www.openstreetmap.org/way*
+// @match        *://www.openstreetmap.org/relation*
+// @match        *://www.openstreetmap.org/changeset*
+// @match        *://www.openstreetmap.org/history*
+// @match        *://www.openstreetmap.org/note*
+// @match        *://www.openstreetmap.org/export*
 // @grant        none
 // ==/UserScript==
 /* jshint -W097 */
